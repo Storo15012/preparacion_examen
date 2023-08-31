@@ -11,7 +11,7 @@ public class Controller {
     public Controller() {
 
     }
-    public String imprimir(){
+    public String imp(){
         List<Animal> lista = new ArrayList<>();
         lista.add(new Gato(1,"12","zeus","samuel"));
         lista.add(new Perro(2,"5","luna","yonatan"));

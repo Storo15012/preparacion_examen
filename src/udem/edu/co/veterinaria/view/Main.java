@@ -7,8 +7,9 @@ import udem.edu.co.veterinaria.controller.Controller;
 public class Main {
     public static void main(String[] args) {
 
-        Controller controller = new Controller() ;
-        controller.imprimir();
+        Controller controller = new Controller();
+        String listOutput = controller.imp();
+        System.out.println(listOutput);
 
         }
     }
